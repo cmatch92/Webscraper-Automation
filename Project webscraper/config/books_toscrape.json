@@ -1,0 +1,19 @@
+{
+  "container": "article.product_pod",
+  "fields": {
+    "title": {
+      "selector": "h3 a",
+      "attribute": "title"
+    },
+    "price": ".price_color",
+    "availability": ".availability",
+    "product_url": {
+      "selector": "h3 a",
+      "attribute": "href"
+    },
+    "rating": {
+      "selector": "p.star-rating",
+      "attribute": "class"
+    }
+  }
+}

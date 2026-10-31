@@ -1,0 +1,11 @@
+{
+  "container": "article.listing",
+  "fields": {
+    "title": "h2",
+    "price": ".price",
+    "listing_url": {
+      "selector": "a.details",
+      "attribute": "href"
+    }
+  }
+}
