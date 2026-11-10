@@ -24,8 +24,6 @@ You need Python 3.10 or newer. From the repository root:
 python -m pip install -r requirements.txt
 ```
 
-Browser fetching is turned off, so there is no browser to install.
-
 For development and tests, also install the dev requirements:
 
 ```bash
@@ -105,7 +103,6 @@ The tests use saved HTML fixtures and mocked HTTP responses. They do not contact
 ├── src/
 │   ├── core/                    # Fetch, parse, and data models
 │   └── utils/                   # CSV and JSON export
-├── utils/                       # Standalone helpers, not used by the CLI
 ├── tests/                       # Pytest suite and saved HTML fixtures
 ├── requirements.txt
 ├── requirements-dev.txt
