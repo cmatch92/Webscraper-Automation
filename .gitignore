@@ -68,3 +68,6 @@ env/
 # Project specific data (these look like local storage folders)
 data/
 fiverr_gallery/
+
+# Local AI assistant notes
+CLAUDE.md
